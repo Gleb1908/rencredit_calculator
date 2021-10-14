@@ -42,7 +42,6 @@ public class CalculatorTest extends BaseTest {
                 .fillField(MONTHLY_TOP_UP, MONTHLY_TOP_UP_VALUE_USD)
                 .selectValue(PERIOD, PERIOD_VALUE_12)
                 .selectCheckBox(MONTHLY_CAPITALIZATION, CHECK)
-                .selectCheckBox(PARTIAL_WITHDRAWAL, UNCHECK)
                 .checkingCalculatedValues(ACCRUED, ACCRUED_VALUE_USD)
                 .checkingCalculatedValues(REPLENISHMENT,REPLENISHMENT_VALUE_USD)
                 .checkingCalculatedValues(WITHDRAW,WITHDRAW_VALUE_USD);
